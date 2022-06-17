@@ -23,6 +23,7 @@ What A Wonderful World! What A Wonderful World! What A Wonderful World! ...
 τρίτο να τυπώνει “World! ”), και στη συνέχεια να τα συγχρονίσετε κατάλληλα μεταξύ τους
 χρησιμοποιώντας σημαφόρους (POSIX semaphores).
 
+semaphores.c
 
 Γ. Γράψτε δύο προγράμματα, ένα πρόγραμμα server και έναν πρόγραμμα client (το οποίο
 θα μπορούν να το εκτελούν εν δυνάμει πολλοί clients - και να μπορούν να εξυπηρετούνται
