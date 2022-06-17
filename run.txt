@@ -1,0 +1,14 @@
+ASKISI 1
+
+gcc ask1.c -o ask1 -lpthread
+./ask1
+
+ASKISI 2
+gcc ask2.c -o ask2 -lpthread
+./ask2
+
+ASKISI 3
+gcc ask3-server.c -o server -lpthread -lrt
+./server
+gcc ask3-client.c -o client -lpthread
+./client
